@@ -67,7 +67,7 @@ enum MarkdownNode {
 
 ## 🛠️ Usage
 
-```swift
+````swift
 let markdown: String = """
 # 제목
 문단입니다 **강조**와 ##밑줄##을 포함합니다.
@@ -75,10 +75,12 @@ let markdown: String = """
 ```swift
 print("Hello, world!")
 ```
-
 """
 
 MarkdownView(markdown: markdown)
+````
+
+
 
 ```
 SwiftUI 뷰에 `MarkdownView(markdown:)`를 주입하면 렌더링됩니다.
