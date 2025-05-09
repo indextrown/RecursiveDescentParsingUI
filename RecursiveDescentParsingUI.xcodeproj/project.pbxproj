@@ -6,17 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		DF94871F2DCDBBF1007E22A2 /* RecursiveDescentParsingUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursiveDescentParsingUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		DF94873B2DCDBE13007E22A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9487372DCDBE13007E22A2 /* ContentView.swift */; };
+		DF94873C2DCDBE13007E22A2 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9487382DCDBE13007E22A2 /* MarkdownParser.swift */; };
+		DF94873D2DCDBE13007E22A2 /* RecursiveDescentParsingUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9487392DCDBE13007E22A2 /* RecursiveDescentParsingUIApp.swift */; };
+		DF94873E2DCDBE13007E22A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9487342DCDBE13007E22A2 /* Preview Assets.xcassets */; };
+		DF94873F2DCDBE13007E22A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9487362DCDBE13007E22A2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DF9487212DCDBBF1007E22A2 /* RecursiveDescentParsingUI */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RecursiveDescentParsingUI;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		DF129A9B2DCE5D6F003A4FC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DF94871F2DCDBBF1007E22A2 /* RecursiveDescentParsingUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursiveDescentParsingUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9487342DCDBE13007E22A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF9487362DCDBE13007E22A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF9487372DCDBE13007E22A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF9487382DCDBE13007E22A2 /* MarkdownParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownParser.swift; sourceTree = "<group>"; };
+		DF9487392DCDBE13007E22A2 /* RecursiveDescentParsingUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveDescentParsingUIApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DF94871C2DCDBBF1007E22A2 /* Frameworks */ = {
@@ -32,7 +38,8 @@
 		DF9487162DCDBBF1007E22A2 = {
 			isa = PBXGroup;
 			children = (
-				DF9487212DCDBBF1007E22A2 /* RecursiveDescentParsingUI */,
+				DF129A9B2DCE5D6F003A4FC3 /* README.md */,
+				DF94873A2DCDBE13007E22A2 /* RecursiveDescentParsingUI */,
 				DF9487202DCDBBF1007E22A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,34 @@
 				DF94871F2DCDBBF1007E22A2 /* RecursiveDescentParsingUI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DF9487332DCDBE13007E22A2 /* MarkdownParser */ = {
+			isa = PBXGroup;
+			children = (
+				DF9487382DCDBE13007E22A2 /* MarkdownParser.swift */,
+			);
+			path = MarkdownParser;
+			sourceTree = "<group>";
+		};
+		DF9487352DCDBE13007E22A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF9487342DCDBE13007E22A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF94873A2DCDBE13007E22A2 /* RecursiveDescentParsingUI */ = {
+			isa = PBXGroup;
+			children = (
+				DF9487332DCDBE13007E22A2 /* MarkdownParser */,
+				DF9487352DCDBE13007E22A2 /* Preview Content */,
+				DF9487362DCDBE13007E22A2 /* Assets.xcassets */,
+				DF9487372DCDBE13007E22A2 /* ContentView.swift */,
+				DF9487392DCDBE13007E22A2 /* RecursiveDescentParsingUIApp.swift */,
+			);
+			path = RecursiveDescentParsingUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +94,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DF9487212DCDBBF1007E22A2 /* RecursiveDescentParsingUI */,
 			);
 			name = RecursiveDescentParsingUI;
 			packageProductDependencies = (
@@ -109,6 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF94873E2DCDBE13007E22A2 /* Preview Assets.xcassets in Resources */,
+				DF94873F2DCDBE13007E22A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF94873B2DCDBE13007E22A2 /* ContentView.swift in Sources */,
+				DF94873C2DCDBE13007E22A2 /* MarkdownParser.swift in Sources */,
+				DF94873D2DCDBE13007E22A2 /* RecursiveDescentParsingUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
